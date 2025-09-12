@@ -12,4 +12,9 @@ print("The midpoint is: ", mid)
 exp = HM.exponent(number1, number2)
 print(f"The value of raising {number1} to the power of {number2} is: {exp}")
 
+max_number = HM.max(number1, number2)
+print(f"The maximum of {number1} and {number2} is: {max_number}")
+min_number = HM.min(number1, number2)
+print(f"The minimum of {number1} and {number2} is: {min_number}")
+
 print (HM.exponent.__name__)

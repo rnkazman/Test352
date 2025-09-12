@@ -6,4 +6,5 @@ token = f.encrypt(b"A really secret message. Not for prying eyes.")
 print("Encrypted token=", token)
 
 decrypted = f.decrypt(token)
-print("Decrypted token=", decrypted)
+print("Decrypted token=")
+print(decrypted.decode()) 

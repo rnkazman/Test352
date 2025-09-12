@@ -1,4 +1,4 @@
 # Test whether cryptography was installed
-import cryptographyBAD
+import cryptography
 
 print("Hi there")

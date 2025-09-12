@@ -3,6 +3,8 @@
 
 responseValues = [5, 7, 3, 8]
 respondentIDs = (1012, 1035, 1021, 1053)
+responseValues.sort()
 
 responseValues.append(respondentIDs)
 print(responseValues)
+print(len(responseValues))  # Should be 5 now
